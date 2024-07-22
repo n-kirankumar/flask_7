@@ -12,4 +12,4 @@ This is a Flask-based profile management application supporting CRUD operations 
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/n-kirankumar/flask_7.git
