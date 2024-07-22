@@ -1,0 +1,14 @@
+http://127.0.0.1:5000/user/kiran?current_user=kiran&is_admin=true
+
+# get user info
+
+"http://127.0.0.1:5000/user/kiran?current_user=kiran&is_admin=true"
+
+List All Users
+"http://127.0.0.1:5000/users?current_user=kiran&is_admin=true"
+
+Create User
+"http://127.0.0.1:5000/user/newuser" -H "Content-Type: application/json" -d '{"email": "newuser@example.com", "age": 28, "mobile": "1234567890", "gender": "female", "blood_group": "A+"}'
+
+Update User Information
+"http://127.0.0.1:5000/user/kiran?current_user=kiran&is_admin=true"
